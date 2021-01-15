@@ -1,9 +1,10 @@
 import Table from '../src/components/Table';
 
+
 function App() {
   return (
     <div>
-      <Table/>
+       <Table/>
     </div>
   );
 }

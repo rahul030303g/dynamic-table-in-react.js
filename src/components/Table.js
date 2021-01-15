@@ -17,38 +17,46 @@ class Table extends React.Component{
     renderHeaderData=()=>{
         const header = Object.keys(this.state.students[0]);
         console.log("renderheader",header);
-        header.map((key,index)=>{
-            return (
-                <thead key={index}>
-                    {key.toUpperCase()}
-                </thead>
-            )
-        })
+        return(
+
+            header.map((key,index)=>{
+                return (
+                    <th key={index}>
+                        {key.toUpperCase()}
+                    </th>
+                )
+            })
+        )
+        
     }
 
     renderTableData = ()=>{
-        
+        console.log("mn", this.state.students);
+        return(
         this.state.students.map((student,index)=>{
             const {id,name,rn,marks} = student;
             // console.log(id)
-            return(
-                <tr key={id}>
+            return(<tr key={id}>
                     <td>{id}</td>
                     <td>{name}</td>
                     <td>{rn}</td>
                     <td>{marks}</td>
                 </tr> 
+                
             )
-        })
+        }))
     }
 
     render(){
         return(
             <table id='students'>
-                <tbody>
-                    <tr>{this.renderHeaderData()}</tr>
-                    {this.renderTableData()}
-                </tbody>
+            <thead>
+            <tr>{this.renderHeaderData()}</tr>
+        </thead>
+        <tbody>
+       {this.renderTableData()}
+        </tbody>
+                  
             </table>
         )
     }
