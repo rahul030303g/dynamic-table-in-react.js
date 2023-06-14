@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dynamic-table-in-react.js/static/css/main.2ae47eeb.chunk.css",
-    "main.js": "/dynamic-table-in-react.js/static/js/main.fa239599.chunk.js",
-    "main.js.map": "/dynamic-table-in-react.js/static/js/main.fa239599.chunk.js.map",
+    "main.js": "/dynamic-table-in-react.js/static/js/main.b499f3f4.chunk.js",
+    "main.js.map": "/dynamic-table-in-react.js/static/js/main.b499f3f4.chunk.js.map",
     "runtime-main.js": "/dynamic-table-in-react.js/static/js/runtime-main.40658b75.js",
     "runtime-main.js.map": "/dynamic-table-in-react.js/static/js/runtime-main.40658b75.js.map",
     "static/js/2.79847be3.chunk.js": "/dynamic-table-in-react.js/static/js/2.79847be3.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.40658b75.js",
     "static/js/2.79847be3.chunk.js",
     "static/css/main.2ae47eeb.chunk.css",
-    "static/js/main.fa239599.chunk.js"
+    "static/js/main.b499f3f4.chunk.js"
   ]
 }
